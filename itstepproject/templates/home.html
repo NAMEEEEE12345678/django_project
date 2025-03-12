@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static './css/style.css'  %}">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <a href="{% url 'home_page' %}">Home</a>
+            <a href="{% url 'about_page' %}">About</a>
+            <a href="{% url 'contact_page' %}">Contact</a>
+        </div>
+    </header>
+    <main>
+        <h1>Главная страница</h1>
+        <div class="category">
+            <h3>Категории</h3>
+            {% for category in categories %}
+            <a href="" style="margin-right: 10px;">{{ category.name }}</a>
+        </div>
+        {% endfor %}
+    <hr>
+
+    <div class="vacant">
+        <div class="vacant-inner">
+            <h2>Вакансии</h2>
+        {% for job in jobs %}
+        <h3>{{ job.title }}</h3>
+        <p>{{ job.company }}</p>
+        </div>
+    </div>
+        {% endfor %}
+    </main>
+</body>
+</html>

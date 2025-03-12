@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+header{
+    background: rgb(121, 121, 121);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-inner a{
+    padding-left: 12px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.category{
+    
+}
+.vacant{
+
+}
+.vacant-inner h2{
+    margin-top: 10px;
+}
+.vacant-inner{
+
+}
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Шапка */
+.header {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-inner a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.header-inner a:hover {
+    text-decoration: underline;
+}
+
+/* Основной контент */
+main {
+    max-width: 800px;
+    margin: 100px auto 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Категории */
+.category {
+    margin: 20px 0;
+    padding: 10px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.category a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.category a:hover {
+    text-decoration: underline;
+}
+
+/* Вакансии */
+.vacant {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.vacant h3 {
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.vacant p {
+    color: #666;
+}
+
+/* Кнопки */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-primary {
+    background: #007bff;
+    color: white;
+}
+
+.button-primary:hover {
+    background: #0056b3;
+}
+
+.button-danger {
+    background: #dc3545;
+    color: white;
+}
+
+.button-danger:hover {
+    background: #c82333;
+}
+
+.button-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+.button-secondary:hover {
+    background: #5a6268;
+}
+
+/* Формы */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+    margin-top: 10px;
+}
+
+/* Страницы About и Contact */
+.about, .contact {
+    text-align: center;
+    padding: 50px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 100px auto;
+}

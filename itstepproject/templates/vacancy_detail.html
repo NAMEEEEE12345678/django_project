@@ -1,0 +1,10 @@
+<h1>{{ vacancy.title }}</h1>
+<p>{{ vacancy.description }}</p>
+<p><strong>Компания:</strong>{{ vacancy.company }}</p>
+<p><strong>Локация:</strong>{{ vacancy.location }}</p>
+<a href="{% url 'vacancy_update' vacancy.pk %}">Редактировать</a>
+<form method="post" action="{% url 'vacancy_delete' vacancy.pk %}">
+    {% csrf_token %}
+    <button type="submit">Удалить</button>
+</form>
+<a href="{% url 'vacancy_list' %}">Назад к списку</a>

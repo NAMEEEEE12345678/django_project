@@ -33,7 +33,7 @@ a{
 .vacant-inner{
 
 }
-/* Общие стили */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -41,7 +41,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Шапка */
+
 .header {
     background-color: #333;
     padding: 15px 0;
@@ -64,7 +64,7 @@ body {
     text-decoration: underline;
 }
 
-/* Основной контент */
+
 main {
     max-width: 800px;
     margin: 100px auto 20px;
@@ -78,7 +78,7 @@ h1, h2, h3 {
     color: #333;
 }
 
-/* Категории */
+
 .category {
     margin: 20px 0;
     padding: 10px;
@@ -96,7 +96,7 @@ h1, h2, h3 {
     text-decoration: underline;
 }
 
-/* Вакансии */
+
 .vacant {
     background: #fff;
     padding: 15px;
@@ -114,7 +114,7 @@ h1, h2, h3 {
     color: #666;
 }
 
-/* Кнопки */
+
 .button {
     display: inline-block;
     padding: 10px 15px;
@@ -151,7 +151,7 @@ h1, h2, h3 {
     background: #5a6268;
 }
 
-/* Формы */
+
 form {
     background: #fff;
     padding: 20px;
@@ -163,7 +163,7 @@ form button {
     margin-top: 10px;
 }
 
-/* Страницы About и Contact */
+
 .about, .contact {
     text-align: center;
     padding: 50px;
@@ -173,3 +173,4 @@ form button {
     max-width: 600px;
     margin: 100px auto;
 }
+   
